@@ -54,10 +54,10 @@
 			<summary> <em>코드 펼치기/접기</em></summary>
 		
 		<p>
-			<img src="images/implementation1-2.PNG" width="50%">
+			<img src="images/implementation1-2.png" width="50%">
 		</p>
   		<p>
-			<img src="images/implementation1-3.PNG" width="24%">
+			<img src="images/implementation1-3.png" width="24%">
 			<img src="images/implementation1-4.png" width="24%">
 			<img src="images/implementation1-5.png" width="24%">
 			<img src="images/implementation1-6.png" width="24%">
