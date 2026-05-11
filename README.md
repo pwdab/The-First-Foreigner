@@ -19,10 +19,7 @@
 </p>
 
 ## 게임 플레이
-- **직접 플레이**   
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="15" align="absmiddle"/> [Steam](https://store.steampowered.com/app/3634090/The_First_Foreigner/)에서 게임 다운로드 후 실행합니다.
-- **플레이 영상**   
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width="15" align="absmiddle"/> [YouTube](https://www.youtube.com/watch?v=AIy8zwr5r8M)에서 플레이 영상을 시청할 수 있습니다.
 
 ## 프로젝트 소개
 - **프로젝트 유형**: 3D 캐주얼 멀티플레이 게임 개발 프로젝트 (2인 팀 프로젝트)
