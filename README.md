@@ -21,6 +21,8 @@
 ## 게임 플레이
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="15" align="absmiddle"/> [Steam](https://store.steampowered.com/app/3634090/The_First_Foreigner/)에서 게임 다운로드 후 실행합니다.
 
+<br>
+
 ## 프로젝트 소개
 - **프로젝트 유형**: 3D 캐주얼 멀티플레이 게임 개발 프로젝트 (2인 팀 프로젝트)
 - **본인 역할**: 게임 클라이언트 프로그래밍
@@ -43,6 +45,8 @@
 	- 플레이어 입력, 캐릭터 이동, 상호작용 등 핵심 **게임 로직** 구현
 	- 단어 선택 UI, 게임 진행 UI, 결과 UI 등 **핵심 UMG 화면** 구현
 	- **Steam 데모 출시**를 위한 빌드, 패키징
+
+<br>
 
 ## 프로젝트 구조
 
