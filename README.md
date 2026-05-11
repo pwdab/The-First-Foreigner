@@ -1,41 +1,57 @@
 # The First Foreigner <img src="https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" align="absmiddle"/> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" align="absmiddle"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" align="absmiddle"/> <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" align="absmiddle"/>
+<!--
 <p align="center">
   <img src="https://github.com/pwdab/Portfolio/raw/ver-3.0/images/The%20First%20Foreigner/The%20First%20Foreigner.png" alt="The First Foreigner" width="75%">
 	<img src="https://github.com/pwdab/Portfolio/raw/ver-3.0/images/The%20First%20Foreigner/features1.gif" width="32%">
 	<img src="https://github.com/pwdab/Portfolio/raw/ver-3.0/images/The%20First%20Foreigner/features2.gif" width="32%">
 	<img src="https://github.com/pwdab/Portfolio/raw/ver-3.0/images/The%20First%20Foreigner/features3.gif" width="32%">
 </p>
+-->
 
-## 🎮 게임 플레이
+<p align="center">
+  <img src="https://github.com/pwdab/Portfolio/blob/ver-3.0/images/The%20First%20Foreigner/The%20First%20Foreigner_Steam.png?raw=true" width="75%">
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/AIy8zwr5r8M">
+    <img src="https://img.youtube.com/vi/AIy8zwr5r8M/0.jpg" width="75%" alt="The First Foreigner 테스트 영상">
+  </a>
+</p>
+
+## 게임 플레이
 - **직접 플레이**   
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="15" align="absmiddle"/> [Steam](https://store.steampowered.com/app/3634090/The_First_Foreigner/)에서 게임 다운로드 후 실행합니다.
 - **플레이 영상**   
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width="15" align="absmiddle"/> [YouTube](https://www.youtube.com/watch?v=AIy8zwr5r8M)에서 플레이 영상을 시청할 수 있습니다.
 
-## 📌 프로젝트 소개
-- **프로젝트 개요**   
-  Unreal Engine으로 제작한 3D 멀티플레이 캐주얼 게임\
-  두 명의 플레이어가 번갈아 제시어를 행동이나 사물로 표현하고 상대가 이를 추리해 맞춤
-- **개발 기간**   
-  2024.09.10 ~ 2024.12.06 : 리슨 서버 기반 빌드 개발 완료\
-  2025.05.17 ~ 2025.06.09 : Online Subsystem 기반 빌드 개발 완료
-- **개발 상태**   
-  Steam 게시 완료 (개발 종료)
-- **개발 환경**   
-  Unreal 5.2.1\
-  Windows 10 (64bit)
-- **멤버 구성**   
-  기획 및 레벨 디자인 1명\
-  프로그래밍 1명
-
-## 🎯 담당 업무
-- Unreal Gameplay Framework 기반 **게임 플레이 로직** 구현   
-- Replication·RPC 기반 클라이언트–서버 **데이터 동기화 및 명령 처리**   
-- Animation Blueprint·AnimInstance·State Machine 기반 캐릭터 **애니메이션 제어**   
-- Widget Blueprint 기반 **동적 UI** 제작 및 **데이터 연동**   
-- Online Subsystem 기반 **세션 관리**
+## 프로젝트 소개
+- **프로젝트 유형**: 3D 캐주얼 멀티플레이 게임 개발 프로젝트 (2인 팀 프로젝트)
+- **본인 역할**: 게임 클라이언트 프로그래밍
+- **개발 기간**:
+	- 2024.09.10 ~ 2024.12.06 : 리슨 서버 기반 빌드 개발 완료
+	- 2025.05.17 ~ 2025.06.09 : Online Subsystem 기반 빌드 개발 완료 및 스팀 게시
+- **개발 환경**: Unreal 5.2.1, Windows 10
+- **주요 기술**:
+	- Unreal Engine 5
+	- Multiplayer Networking
+	- Gameplay Framework
+	- Animation Blueprint
+	- UMG
+	- Online Subsystem
+- **담당 업무**:
+	- UE5 기반 **2인 멀티플레이 게임**의 로비부터 인게임까지 **전체 플레이 흐름** 구현
+	- 세션 생성, 검색, 참가, 종료를 포함한 **멀티플레이 로비 시스템** 구현
+	- **GameMode, GameState, PlayerState**를 활용해 **게임 시작, 진행, 종료 흐름 관리**
+	- 참가 인원, 제한 시간, 라운드 상태, 플레이어 라이프 등 주요 게임 정보를 **UI와 동기화**
+	- 플레이어 입력, 캐릭터 이동, 상호작용 등 핵심 **게임 로직** 구현
+	- 단어 선택 UI, 게임 진행 UI, 결과 UI 등 **핵심 UMG 화면** 구현
+	- **Steam 데모 출시**를 위한 빌드, 패키징
 
 ## 프로젝트 구조
+
+<details>
+<summary>프로젝트 구조 보기</summary>
+	
 ```plaintext
 Source/
 ├── Project_S/
@@ -88,3 +104,6 @@ Content/
 │   ├── IA_*.uasset                     # 각 Action에 대한 값과 트리거를 설정
 └── └── IMC_Default.uasset              # InputAction과 키를 매핑
 ```
+
+
+</details>
